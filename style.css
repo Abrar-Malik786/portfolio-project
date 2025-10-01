@@ -1,0 +1,47 @@
+*{
+  background-color:antiquewhite;
+  font-family: 'Courier New', Courier, monospace;
+}
+#heading{
+color : white;
+background-color:darkolivegreen;
+height: 150px;
+border-radius:10px;
+display: flex;
+justify-content:center;
+flex-direction: column;
+align-items: center;
+}
+#heading:hover{
+  box-shadow: 0 8px 18px goldenrod; 
+}
+.personel-info{
+  width:100%;
+  height: 400px;
+  font-size:40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items:center;
+}
+#portfolio-image{
+border: 3px solid white;
+border-radius: 15px;
+margin-left: 60vh;
+box-shadow: 0 4px 8px grey;
+}
+#portfolio-image:hover{
+  box-shadow: 0 8px 18px goldenrod; 
+}
+#portfolio-name {
+  color:goldenrod;
+}
+@media (max-width: 768px) {
+    .personal-info {
+        flex-direction: column;
+    }
+
+    #portfolio-image {
+        width: 80%;
+    }
+}
